@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L&S KIDS</title>
+    <link rel="stylesheet" href="estilos/main.css">
+    <link rel="shortcut icon" href="img/logomarca.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="main-esquerdo">
+            <img id="logo" src="img/logo.png" alt="">
+        </div>
+        <div class="main-meio">
+            <button id="btn-cab-home">Home</button>
+            <button id="btn-cab-masc">Peças Masculinas</button>
+            <button id="btn-cab-fem">Peças Femininas</button>
+            <button id="btn-cab-contato">Fale Conosco</button>
+        </div>
+        <div class="main-direito">
+            <span id="bemvindo">Bem-vindo(a) ao nosso site!</span>
+        </div>
+    </header>
+
+    <div class="aviso">
+        <span id="text-aviso">Atenção: copie o código do produto e envie para o atendente</span>
+    </div>
+    <div class="main-body">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <img id="" src="img/banner1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img id="" src="img/banner2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img id="" src="img/banner3.png" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1">
+
+                    </div>
+                    <div class="auto-btn2">
+
+                    </div>
+                    <div class="auto-btn3">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="manual-navegation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+
+        <div class="main-posters">
+            <div id="poster">
+                <img id="carro-card" src="img/local_shipping_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <span id="text-card">Entrega Gratuíta para toda </br>Messias</span>
+            </div>
+            <div id="poster">
+                <img id="cartao-card" src="img/credit_card_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <span id="text-card">Parcele suas compras em até 3x </br>SEM JUROS</span>
+            </div>
+            <div id="poster">
+                <img id="casa-card" src="img/home_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <span id="text-card">Receba seu pedido no conforto da sua casa</span>
+            </div>
+        </div>
+
+        <div class="main-A">
+            <h1>Novidades</h1>
+            <div class="main-produtos">
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Preta</span>
+                        <span id="valor-produto">R$00,00</span>
+                        <button onclick="addToCart('Produto 1', 50)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Produto 2</span>
+                        <span id="valor-produto">R$00,00</span>
+                        <button onclick="addToCart('Produto 2', 50)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Produto 3</span>
+                        <span id="valor-produto">R$00,00</span>
+                        <button onclick="addToCart('Produto 3', 50)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Produto 4</span>
+                        <span id="valor-produto">R$00,00</span>
+                        <button onclick="addToCart('Produto 4', 50)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Produto 5</span>
+                        <span id="valor-produto">R$00,00</span>
+                        <button onclick="addToCart('Produto 5', 50)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+            </div>
+            <button id="btn-veramais">Ver mais</button>
+        </div>
+
+        <div class="main-B">
+            <h1>Conjuntos Masculino</h1>
+            <div class="main-produtos">
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+            </div>
+            <button id="btn-veramais">Ver mais</button>
+        </div>
+
+        <div class="main-C">
+            <h1>Vestidos</h1>
+            <div class="main-produtos">
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+                <div class="card-pecas">
+                    <img id="produtos" src="img/produto.png" alt="">
+
+                    <div class="soncards">
+                        <span id="descricao-produto">Peça Aleatoria cor Preta masculina</span>
+                        <span id="valor-produto">R$00,00</span>
+                    </div>
+                </div>
+            </div>
+            <button id="btn-veramais">Ver mais</button>
+        </div>
+
+        <div class="main-D">
+            <img src="img/anuncio.png" alt="">
+        </div>
+        <div class="main-E">
+            <div class="sonE-I">
+                <ul>
+                    <li>Home</li>
+                    <li>Peças Masculinas</li>
+                    <li>Peças Femininas</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+
+            <div class="sonE-II">
+                <img src="img/logomarca.png" alt="">
+                <span>Livia Kids</span>
+                <span>Direitos reservados</span>
+            </div>
+
+            <div class="sonE-III">
+                <span>Redes Sociais</span>
+                <img src="img/instagram.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
