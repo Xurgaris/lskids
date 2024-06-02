@@ -141,9 +141,29 @@
         gap: 20px;
     }
 
-    .infor-contato img{
+    .infor-contato{
         display: none;
-        height: 50px;
+        width: 200px;
+        flex-direction: column;
+        background-color: #212121;
+        margin-right: 390px;
+        margin-top: 380px;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        z-index: 1;
+        gap: 20px;
+        color: #fff;
+    }
+
+    .infor-contato img{
+        height: 30px;
+    }
+
+    #inst-cel:hover,
+    #atend:hover{
+        cursor: pointer;
+        filter: brightness(50%);
     }
 
     #submenu-cel,
