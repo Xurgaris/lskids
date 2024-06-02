@@ -401,7 +401,7 @@
 
     .main-D {
         margin-top: 20px;
-        background-color: #f7ffe4;
+        background-color: #eaeaea;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -744,7 +744,7 @@
     }
 
     #poster {
-        background-color: #f7ffe4;
+        background-color: #eaeaea;
         height: 130px;
         width: 220px;
         display: flex;
@@ -828,7 +828,7 @@
 
     .main-D {
         margin-top: 10%;
-        background-color: #f7ffe4;
+        background-color: #eaeaea;
         display: flex;
         justify-content: space-between;
         height: 150px;
@@ -1341,7 +1341,7 @@
     }
 
     #poster {
-        background-color: #f7ffe4;
+        background-color: #eaeaea;
         height: 130px;
         width: 250px;
         display: flex;
@@ -1426,7 +1426,7 @@
 
     .main-D {
         margin-top: 70px;
-        background-color: #f7ffe4;
+        background-color: #eaeaea;
         display: flex;
         justify-content: space-between;
         padding: 30px;
