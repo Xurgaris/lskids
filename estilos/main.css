@@ -141,6 +141,11 @@
         gap: 20px;
     }
 
+    .infor-contato img{
+        display: none;
+        height: 50px;
+    }
+
     #submenu-cel,
     #submenu-two-cel,
     #submenu-three-cel,
