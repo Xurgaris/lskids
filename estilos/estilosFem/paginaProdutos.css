@@ -1,0 +1,378 @@
+body {
+    border: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    background-color: #212121;
+    margin-top: -80px;
+}
+
+.main-esquerdo {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#logo {
+    height: 60px;
+}
+
+.main-meio {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.dropdown-menu,
+.dropdown-menu-2 {
+    display: none;
+    position: absolute;
+    border: solid 0px;
+    background-color: #212121;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    margin-top: 10px;
+}
+
+.dropdown-menu-2 {
+    margin-top: 10px;
+}
+
+.dropdown-menu ul,
+.dropdown-menu-2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li,
+.dropdown-menu-2 li {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu li a,
+.dropdown-menu-2 li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu-2 li a:hover {
+    background-color: #f0f0f0;
+}
+
+
+#btn-cab-home,
+#btn-cab-masc,
+#btn-cab-fem {
+    border: 0;
+    background: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+#btn-cab-contato {
+    border: solid 1px;
+    background: none;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+#btn-cab-home:hover,
+#btn-cab-contato:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+    color: #fff;
+}
+
+#btn-cab-masc:hover {
+    color: #5271FF;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+#btn-cab-fem:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+    color: #FF66C4;
+}
+
+
+#btn-navegation-conj:hover,
+#btn-navegation-camis:hover,
+#btn-navegation-pij:hover,
+#btn-navegation-out:hover {
+    cursor: pointer;
+    color: #5271FF;
+}
+
+
+/*ESTILIZAÇÃO DOS SUBMENUS*/
+#submenu-fem{
+    display: none;
+    position: absolute;
+    border: solid 0px;
+    background-color: #212121;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin-left: 290px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#submenu-two-fem{
+    display: none;
+    position: absolute;
+    border: solid 0px;
+    background-color: #212121;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin-left: 290px;
+    width: 150px;
+    margin-top: 79px;
+}
+#submenu-three-fem{
+    display: none;
+    position: absolute;
+    border: solid 0px;
+    background-color: #212121;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin-left: 290px;
+    width: 150px;
+    margin-top: 128px;
+}
+
+
+
+
+#btn-nav-tam-fem {
+    color: #fff;
+    background: none;
+}
+
+#btn-nav-tam-fem:hover {
+    color: #FF66C4;
+    cursor: pointer;
+}
+
+/*ESTILIZAÇÃO DOS SUBMENUS FEMININOS*/
+
+#submenu-fem {
+    display: none;
+    position: absolute;
+    border: solid 0px;
+    background-color: #212121;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin-left: 130px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#submenu-two-fem {
+    display: none;
+    position: absolute;
+    border: solid 0px;
+    background-color: #212121;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin-left: 130px;
+    width: 150px;
+    margin-top: 79px;
+}
+
+#submenu-three-fem {
+    display: none;
+    position: absolute;
+    border: solid 0px;
+    background-color: #212121;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin-left: 130px;
+    width: 150px;
+    margin-top: 128px;
+}
+
+
+
+#btn-nav-tam {
+    color: #fff;
+    background: none;
+}
+
+#btn-nav-tam:hover {
+    color: #5271FF;
+    cursor: pointer;
+}
+
+#btn-navegation-conj-fem:hover,
+#btn-navegation-vest-fem:hover,
+#btn-navegation-pij-fem:hover,
+#btn-navegation-out-fem:hover {
+    cursor: pointer;
+    color: #FF66C4;
+}
+
+.main-direito {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.aviso {
+    display: flex;
+    margin-top: 80px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-aviso {
+    color: #fff;
+}
+
+
+/*ESTILO DO CORPO*/
+.conteiner-paog,.conteiner-umaotres,.conteiner-fem{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner h1{
+    margin-top: 100px;
+}
+
+.fileiraP-1,
+.fileiraM-1,
+.fileiraG-1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fileira1-1,
+.fileira1-2,
+.fileira1-3,
+.fileira2-1,
+.fileira2-2,
+.fileira3-1,
+.fileira3-2,
+
+.fileira4-1,
+.fileira4-2,
+.fileira5-1,
+.fileira5-2,
+.fileira6-1,
+.fileira6-2,
+
+.fileira7-1,
+.fileira7-2,
+.fileira8-1,
+.fileira8-2,
+.fileira9-1,
+.fileira9-2,
+
+.fileira10-1,
+.fileira10-2,
+.fileira11-1,
+.fileira11-2,
+.fileira12-1,
+.fileira12-2,
+
+.fileira13-1,
+.fileira13-2,
+.fileira14-1,
+.fileira14-2{
+    width: 100%;
+    height: 300px;
+    margin-top: -25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-pecas {
+    height: 60%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 1px #212121;
+}
+
+#produtos {
+    height: 100%;
+}
+
+.soncards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+#descricao-produto {
+    text-align: center;
+    display: flex;
+}
+
+#valor-produto {
+    color: rgb(2, 145, 30);
+}
